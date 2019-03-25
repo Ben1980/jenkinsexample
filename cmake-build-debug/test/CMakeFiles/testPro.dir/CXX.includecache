@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bmahr/Projects/jenkinsexample/helloWorld.cpp
+helloWorld.h
+/home/bmahr/Projects/jenkinsexample/helloWorld.h
+
+/home/bmahr/Projects/jenkinsexample/helloWorld.h
+string
+-
+

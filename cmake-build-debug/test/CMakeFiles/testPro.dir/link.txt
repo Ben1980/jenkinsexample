@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -g   CMakeFiles/testPro.dir/test.cpp.o CMakeFiles/testPro.dir/__/helloWorld.cpp.o CMakeFiles/testPro.dir/testPro_autogen/mocs_compilation.cpp.o  -o testPro 
