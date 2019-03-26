@@ -21,7 +21,7 @@ pipeline {
 
         stage('Test') {
             when {
-                environment name: 'GENERATE_TRANSLATIONS', value: 'true'
+                environment name: 'RUN_TESTS', value: 'true'
             }
             steps {
                 ctest 'InSearchPath'
