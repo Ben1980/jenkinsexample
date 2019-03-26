@@ -6,7 +6,6 @@ pipeline {
 	}
 
 	parameters {
-		booleanParam name: 'GENERATE_TRANSLATIONS', defaultValue: true, description: 'Generate Translations?'
 		booleanParam name: 'RUN_TESTS', defaultValue: true, description: 'Run Tests?'
 		booleanParam name: 'RUN_ANALYSIS', defaultValue: true, description: 'Run Static Code Analysis?'
 		booleanParam name: 'DEPLOY', defaultValue: true, description: 'Deploy Artifacts?'
@@ -20,13 +19,14 @@ pipeline {
             }
         }
 
-        //stage('Translation') {
-//
-        //}
-//
-        //stage('Test') {
-//
-        //}
+        stage('Test') {
+            when {
+                environment name: 'GENERATE_TRANSLATIONS', value: 'true'
+            }
+            steps {
+                ctest 'InSearchPath'
+            }
+        }
 //
         //stage('Analyse') {
 //
