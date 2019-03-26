@@ -15,7 +15,7 @@ It's using [CMake](https://cmake.org/) for the build process, [CTest](https://cm
 - [Catch2](https://github.com/catchorg/Catch2) as Testing-Framework
 - [Vcpkg](https://github.com/Microsoft/vcpkg) as Package Manager
 - [CPPCheck](http://cppcheck.sourceforge.net/) as Static Code Analyzer
-- [Jenkins](https://jenkins.io/) as Build Orchestrator
+- [Jenkins](https://jenkins.io/) as Build Orchestrator with CMake and CPPCheck plugin
 
 Important to note is that CMake needs the Vcpkg toolchain file to resolve the necessary dependencies
 ```
