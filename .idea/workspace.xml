@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="409">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -350,12 +350,12 @@
       <updated>1553540676378</updated>
       <workItem from="1553540677696" duration="10000" />
       <workItem from="1553540703218" duration="3011000" />
-      <workItem from="1553595855666" duration="5678000" />
+      <workItem from="1553595855666" duration="6820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8699000" />
+    <option name="totallyTimeSpent" value="9841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="228" y="162" width="1211" height="740" extended-state="0" />
@@ -452,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="409">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>

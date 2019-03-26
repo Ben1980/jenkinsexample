@@ -38,13 +38,17 @@ pipeline {
             }
         }
 
-        //stage('Deploy') {
-        //    when {
-        //        environment name: 'DEPLOY', value: 'true'
-        //    }
-            //steps {
-            //    //This
-            //}
-        //}
+        stage('Deploy') {
+            when {
+                environment name: 'DEPLOY', value: 'true'
+            }
+            steps {
+                sh label: '', script: '''for f in $WORKSPACE; do
+                  if [ -f "$f" ] && [ -x "$f" ]; then
+                    cp "$f" ~/
+                  fi
+                done'''
+            }
+        }
 	}
 }
