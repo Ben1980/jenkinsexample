@@ -43,11 +43,8 @@ pipeline {
                 environment name: 'DEPLOY', value: 'true'
             }
             steps {
-                sh label: '', script: '''for f in $WORKSPACE; do
-                  if [ -f "$f" ] && [ -x "$f" ]; then
-                    cp "$f" ~/
-                  fi
-                done'''
+                sh label: '', returnStatus: true, script: '''cp jenkinsexample ~
+                cp test/testPro ~'''
             }
         }
 	}
