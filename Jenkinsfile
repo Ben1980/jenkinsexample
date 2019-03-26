@@ -38,13 +38,13 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            when {
-                environment name: 'DEPLOY', value: 'true'
-            }
+        //stage('Deploy') {
+        //    when {
+        //        environment name: 'DEPLOY', value: 'true'
+        //    }
             //steps {
             //    //This
             //}
-        }
+        //}
 	}
 }
