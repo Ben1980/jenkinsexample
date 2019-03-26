@@ -14,8 +14,10 @@ pipeline {
 
 	stages {
         stage('Build') {
-            cmake arguments: '-DCMAKE_TOOLCHAIN_FILE=/home/bmahr/Projects/vcpkg/scripts/buildsystems/vcpkg.cmake', installation: 'InSearchPath'
-            cmakeBuild buildDir: 'build', buildType: 'Release', cleanBuild: true, installation: 'InSearchPath'
+            steps {
+                cmake arguments: '-DCMAKE_TOOLCHAIN_FILE=/home/bmahr/Projects/vcpkg/scripts/buildsystems/vcpkg.cmake', installation: 'InSearchPath'
+                cmakeBuild buildDir: 'build', buildType: 'Release', cleanBuild: true, installation: 'InSearchPath'
+            }
         }
 
         //stage('Translation') {
