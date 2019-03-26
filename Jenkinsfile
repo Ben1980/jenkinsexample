@@ -27,11 +27,17 @@ pipeline {
                 ctest 'InSearchPath'
             }
         }
-//
-        //stage('Analyse') {
-//
-        //}
-//
+
+        stage('Analyse') {
+            when {
+                environment name: 'RUN_ANALYSIS', value: 'true'
+            }
+            steps {
+                sh label: '', returnStatus: true, script: 'cppcheck . --xml --language=c++ 2> cppcheck-result.xml'
+                publishCppcheck allowNoReport: true, ignoreBlankFiles: true, pattern: '**/cppcheck-result.xml'
+            }
+        }
+
         //stage('Deploy') {
 //
         //}
