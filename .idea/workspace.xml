@@ -2,38 +2,38 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="jenkinsexample" targetName="Continuous" />
-      <config projectName="jenkinsexample" targetName="ExperimentalStart" />
-      <config projectName="jenkinsexample" targetName="jenkinsexample_autogen" />
-      <config projectName="jenkinsexample" targetName="ContinuousCoverage" />
-      <config projectName="jenkinsexample" targetName="Experimental" />
-      <config projectName="jenkinsexample" targetName="ExperimentalBuild" />
-      <config projectName="jenkinsexample" targetName="ContinuousUpdate" />
-      <config projectName="jenkinsexample" targetName="testPro" />
-      <config projectName="jenkinsexample" targetName="NightlyTest" />
-      <config projectName="jenkinsexample" targetName="NightlyUpdate" />
-      <config projectName="jenkinsexample" targetName="ContinuousBuild" />
-      <config projectName="jenkinsexample" targetName="ExperimentalConfigure" />
+      <config projectName="jenkinsexample" targetName="ExperimentalTest" />
+      <config projectName="jenkinsexample" targetName="jenkinsexample" />
       <config projectName="jenkinsexample" targetName="ContinuousMemCheck" />
-      <config projectName="jenkinsexample" targetName="ContinuousTest" />
+      <config projectName="jenkinsexample" targetName="ExperimentalConfigure" />
+      <config projectName="jenkinsexample" targetName="Continuous" />
+      <config projectName="jenkinsexample" targetName="NightlyCoverage" />
+      <config projectName="jenkinsexample" targetName="ExperimentalBuild" />
       <config projectName="jenkinsexample" targetName="NightlyMemoryCheck" />
       <config projectName="jenkinsexample" targetName="NightlyStart" />
-      <config projectName="jenkinsexample" targetName="ContinuousConfigure" />
-      <config projectName="jenkinsexample" targetName="NightlyMemCheck" />
-      <config projectName="jenkinsexample" targetName="ContinuousSubmit" />
-      <config projectName="jenkinsexample" targetName="ExperimentalMemCheck" />
+      <config projectName="jenkinsexample" targetName="ContinuousTest" />
       <config projectName="jenkinsexample" targetName="ContinuousStart" />
-      <config projectName="jenkinsexample" targetName="NightlySubmit" />
-      <config projectName="jenkinsexample" targetName="ExperimentalUpdate" />
-      <config projectName="jenkinsexample" targetName="ExperimentalSubmit" />
-      <config projectName="jenkinsexample" targetName="jenkinsexample" />
-      <config projectName="jenkinsexample" targetName="NightlyConfigure" />
-      <config projectName="jenkinsexample" targetName="ExperimentalTest" />
-      <config projectName="jenkinsexample" targetName="Nightly" />
-      <config projectName="jenkinsexample" targetName="ExperimentalCoverage" />
-      <config projectName="jenkinsexample" targetName="NightlyBuild" />
+      <config projectName="jenkinsexample" targetName="ContinuousSubmit" />
+      <config projectName="jenkinsexample" targetName="ContinuousConfigure" />
       <config projectName="jenkinsexample" targetName="testPro_autogen" />
-      <config projectName="jenkinsexample" targetName="NightlyCoverage" />
+      <config projectName="jenkinsexample" targetName="NightlyUpdate" />
+      <config projectName="jenkinsexample" targetName="ExperimentalMemCheck" />
+      <config projectName="jenkinsexample" targetName="ExperimentalUpdate" />
+      <config projectName="jenkinsexample" targetName="ExperimentalCoverage" />
+      <config projectName="jenkinsexample" targetName="testPro" />
+      <config projectName="jenkinsexample" targetName="ExperimentalStart" />
+      <config projectName="jenkinsexample" targetName="jenkinsexample_autogen" />
+      <config projectName="jenkinsexample" targetName="ContinuousUpdate" />
+      <config projectName="jenkinsexample" targetName="NightlyBuild" />
+      <config projectName="jenkinsexample" targetName="Experimental" />
+      <config projectName="jenkinsexample" targetName="NightlyConfigure" />
+      <config projectName="jenkinsexample" targetName="ExperimentalSubmit" />
+      <config projectName="jenkinsexample" targetName="NightlySubmit" />
+      <config projectName="jenkinsexample" targetName="Nightly" />
+      <config projectName="jenkinsexample" targetName="NightlyTest" />
+      <config projectName="jenkinsexample" targetName="NightlyMemCheck" />
+      <config projectName="jenkinsexample" targetName="ContinuousCoverage" />
+      <config projectName="jenkinsexample" targetName="ContinuousBuild" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -42,7 +42,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401b9eb6-e93a-4c2b-85ab-de8642f2f9f0" name="Default Changelist" comment="" />
+    <list default="true" id="401b9eb6-e93a-4c2b-85ab-de8642f2f9f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +56,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="16" column="106" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="915">
+                <caret line="61" column="13" lean-forward="true" selection-start-line="22" selection-end-line="61" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suppressions.txt">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -86,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/helloWorld.h" />
         <option value="$PROJECT_DIR$/helloWorld.cpp" />
         <option value="$PROJECT_DIR$/test/test.cpp" />
@@ -94,14 +108,16 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/suppression.txt" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="228" />
-    <option name="y" value="162" />
-    <option name="width" value="1211" />
-    <option name="height" value="740" />
+    <option name="x" value="160" />
+    <option name="y" value="112" />
+    <option name="width" value="1542" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -140,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testPro">
+  <component name="RunManager" selected="Application.jenkinsexample">
     <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jenkinsexample" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -348,23 +364,23 @@
       <updated>1553540676378</updated>
       <workItem from="1553540677696" duration="10000" />
       <workItem from="1553540703218" duration="3011000" />
-      <workItem from="1553595855666" duration="7101000" />
+      <workItem from="1553595855666" duration="8357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10122000" />
+    <option name="totallyTimeSpent" value="11378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="228" y="162" width="1211" height="740" extended-state="0" />
+    <frame x="160" y="112" width="1542" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16394849" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12767379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32738096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +389,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32669982" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.29910713" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,13 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -448,10 +457,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="240">
+          <caret line="16" column="106" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="915">
+            <caret line="61" column="13" lean-forward="true" selection-start-line="22" selection-end-line="61" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
