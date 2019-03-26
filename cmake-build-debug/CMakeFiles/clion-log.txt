@@ -1,4 +1,0 @@
-/home/bmahr/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/home/bmahr/Projects/vcpkg/scripts/buildsystems/vcpkg.cmake -G "CodeBlocks - Unix Makefiles" /home/bmahr/Projects/jenkinsexample
--- Configuring done
--- Generating done
--- Build files have been written to: /home/bmahr/Projects/jenkinsexample/cmake-build-debug
