@@ -1,6 +1,6 @@
 # JenkinsExample
 
-A jenkins build automation example, as discussed on [thoughts-on-cpp.com](https://thoughts-on-cpp.com/2019/03/27/introduction-into-build-automation-setup-with-jenkins-and-cmake) for a C++/Qt desktop application utilizing CMake, CTest and CPPCheck.
+A jenkins build automation example, as discussed on [thoughts-on-coding.com](https://thoughts-on-coding.com/2019/03/27/introduction-into-build-automation-setup-with-jenkins-and-cmake) for a C++/Qt desktop application utilizing CMake, CTest and CPPCheck.
 
 ## Getting Started
 
